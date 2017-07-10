@@ -17,6 +17,7 @@ After you generate the key
 
 `export JWT_KEY=<key that was generated>`
     
-or even ```
+or even 
+```
 export JWT_KEY=`jwt_key_gen`
 ```
