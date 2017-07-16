@@ -20,7 +20,7 @@ def main():
     except KeyError as e:
         if options.verbose:
             print(colored('Something went wrong generating the key.', 'red'))
-    except Attribute as e:
+    except AttributeError as e:
         if options.verbose:
             print(colored('Something went wrong generating the key.', 'red'))
 
